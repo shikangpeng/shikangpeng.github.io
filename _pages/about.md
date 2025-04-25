@@ -21,6 +21,6 @@ If you are interested in any collaboration, feel free to send me an email!
 
 Recent papers available online:
 
-<span style="color:#8CA0B1;"><b>Peng, S.</b></span>, Bainbridge, W.A. (2024). Image memorability enhances social media virality. <i>arXiv</i>. <a href="https://doi.org/10.48550/arXiv.2409.14659">https://doi.org/10.48550/arXiv.2409.14659</a>
+<span style="color:#8CA0B1;"><b>Peng, S.</b></span>, Bainbridge, W.A. (2024). Image memorability enhances social media virality. <i>arXiv</i>. <a href="https://arxiv.org/abs/2409.14659v1">https://doi.org/10.48550/arXiv.2409.14659</a>
 
 <span style="color:#8CA0B1;"><b>Peng, S.</b></span>, Dixon, P. (2024). Text-based and memory-based metrics of cognitive coupling. <i>C. J. Exp. Psychol.</i>. <a href="https://doi.org/10.1037/cep0000349">https://doi.org/10.1037/cep0000349</a>
