@@ -51,7 +51,7 @@ ninja.data = [{
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
             },},{id: "news-my-undergraduate-thesis-finally-gets-published-peng-amp-amp-dixon-2024",
-          title: 'My undergraduate thesis finally gets published! Peng &amp;amp;amp; Dixon, 2024',
+          title: 'My undergraduate thesis finally gets published! (Peng &amp;amp;amp; Dixon, 2024)',
           description: "",
           section: "News",},{id: "news-check-out-my-master-s-project-on-investigating-memorabilty-s-predictability-on-social-media-virality-peng-amp-amp-bainbridge-2026",
           title: 'Check out my Master’s project on investigating memorabilty’s predictability on social media virality...',
@@ -116,18 +116,11 @@ ninja.data = [{
           window.open("https://github.com/shikangpeng", "_blank");
         },
       },{
-        id: 'social-inspire',
-        title: 'Inspire HEP',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://inspirehep.net/authors/1010907", "_blank");
-        },
-      },{
         id: 'social-linkedin',
         title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.linkedin.com/in/shikangpeng", "_blank");
+          window.open("https://www.linkedin.com/in/shikang-peng", "_blank");
         },
       },{
         id: 'social-orcid',
@@ -149,13 +142,6 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://twitter.com/shikang_peng", "_blank");
-        },
-      },{
-        id: 'social-custom_social',
-        title: 'Custom_social',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.alberteinstein.com/", "_blank");
         },
       },{
       id: 'light-theme',
