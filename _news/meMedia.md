@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Check out my Master's project on investigating memorabilty's predictability on social media virality [Peng & Bainbridge, 2026](https://doi.org/10.1016/j.chb.2025.108799). 
+Check out my Master's project on investigating memorabilty's predictability on social media virality ([Peng & Bainbridge, 2026](https://doi.org/10.1016/j.chb.2025.108799)) 🌐🔥. 

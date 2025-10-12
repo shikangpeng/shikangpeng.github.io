@@ -3,8 +3,7 @@
     "name": "Shikang Peng",
     "label": "Computational Cognitive Neuroscience Researcher",
     "image": "",
-    "url": "https://shikangpeng.github.io",
-    "summary": "A person interested in applying computational tools to understand human memory experiences"
+    "url": "https://shikangpeng.github.io"
   },
   "education": [
     {
@@ -34,20 +33,6 @@
       "courses": ["Text-based and memory-based metrics of cognitive coupling"]
     }
   ],
-  "publications": [
-    {
-      "name": "Peng. S., & Bainbridge, W. A.",
-      "publisher": "Computers in Human Bheavior",
-      "releaseDate": "2025-09-19",
-      "url": "https://doi.org/10.1016/j.chb.2025.108799"
-    },
-    {
-      "name": "Peng. S., & Dixon, P.",
-      "publisher": "Canadian Journal of Experimental Psychology",
-      "releaseDate": "2024-10-17",
-      "url": "https://psycnet.apa.org/doiLanding?doi=10.1037%2Fcep0000349"
-    }
-  ],
   "awards": [
     {
       "title": "Max & Ruth Wiseman Fellowship",
@@ -74,15 +59,11 @@
       "summary": "The Dean's Silver Medal in Science is being awarded annually to convocating BSc students with superior academic achievement enrolled in an Honour program in the Faculty of Science. "
     }
   ],
-  "teaching experiences": [
-    {
-      "keywords": [
-        "PSY202H1 Statistics II - Fall 2025",
-        "PSY201H1 Statistics I - Summer 2025|Fall 2024",
-        "PSY101H1 Intro to Psychology - Winter 2026| Winter 2025"
-      ]
-    }
-  ],
+  "teaching experiences": {
+    "PSY202H1 Statistics II": "Fall 2025",
+    "PSY201H1 Statistics I": "Summer 2025|Fall 2024",
+    "PSY101H1 Intro to Psychology": "Winter 2026|Winter 2025"
+  },
   "certificates": [
     {
       "name": "Computational Neuroscience",
@@ -115,8 +96,7 @@
         "Ensemble Learning",
         "Natural Language Processing",
         "Optimal Transport",
-        "CNN, BERT, CLIP",
-        "etc."
+        "CNN, BERT, CLIP, etc."
       ]
     },
     {
@@ -127,8 +107,7 @@
         "Univariate/Multivariate Analysis",
         "Representational Similarity Analysis",
         "Functional Connectivity/Cofluctuation",
-        "Encoding/Decoding Model",
-        "etc."
+        "Encoding/Decoding Model, etc."
       ]
     }
   ],

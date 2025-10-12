@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-My undergraduate thesis finally gets published! [Peng & Dixon, 2024](https://psycnet.apa.org/doiLanding?doi=10.1037%2Fcep0000349)
+My undergraduate thesis finally gets published! ([Peng & Dixon, 2024](https://psycnet.apa.org/doiLanding?doi=10.1037%2Fcep0000349))
