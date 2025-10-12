@@ -3,9 +3,9 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: You
-middle_name: R.
-last_name: Name
+first_name: Shikang
+middle_name: 
+last_name: Peng
 contact_note: >
   You can even add a little note about which of these is the best way to reach you.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
@@ -340,6 +340,13 @@ external_links:
   rel: external nofollow noopener
   target: _blank
   exclude:
+    - _pages/blog.md
+    - _pages/dropdown.md
+    - _pages/profiles.md
+    - _pages/projects.md
+    - _pages/teaching.md
+    - _pages/repositories.md
+    - _pages/books.md
 
 # -----------------------------------------------------------------------------
 # Responsive WebP Images
