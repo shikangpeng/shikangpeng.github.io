@@ -27,7 +27,7 @@
       "institution": "University of Alberta, Canada",
       "location": "Edmonton, AB",
       "area": "Honors in Psychology",
-      "studyType": "B.Sc.",
+      "studyType": "B.Sc. (hons.)",
       "startDate": "2019-09",
       "endDate": "2023-04",
       "courses": ["Text-based and memory-based metrics of cognitive coupling"]
@@ -59,7 +59,7 @@
       "summary": "The Dean's Silver Medal in Science is being awarded annually to convocating BSc students with superior academic achievement enrolled in an Honour program in the Faculty of Science. "
     }
   ],
-  "teaching experiences": {
+  "teaching": {
     "PSY202H1 Statistics II": "Fall 2025",
     "PSY201H1 Statistics I": "Summer 2025|Fall 2024",
     "PSY101H1 Intro to Psychology": "Winter 2026|Winter 2025"
