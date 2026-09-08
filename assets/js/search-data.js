@@ -16,9 +16,16 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-teaching",
+          title: "teaching",
+          description: "Courses and teaching materials.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/teaching/";
+          },
         },{id: "nav-cv",
           title: "cv",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
@@ -50,11 +57,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-my-undergraduate-thesis-finally-gets-published-peng-amp-amp-dixon-2024",
-          title: 'My undergraduate thesis finally gets published! (Peng &amp;amp;amp; Dixon, 2024)',
-          description: "",
-          section: "News",},{id: "news-check-out-my-master-s-project-on-investigating-memorabilty-s-predictability-on-social-media-virality-peng-amp-amp-bainbridge-2026",
+            },},{id: "news-check-out-my-master-s-project-on-investigating-memorabilty-s-predictability-on-social-media-virality-peng-amp-amp-bainbridge-2026",
           title: 'Check out my Master’s project on investigating memorabilty’s predictability on social media virality...',
+          description: "",
+          section: "News",},{id: "news-my-undergrad-project-investigating-how-3d-in-virtual-reality-affects-vividness-experience-is-now-out-as-preprint-more-papers-coming-soon",
+          title: 'My undergrad project investigating how 3D in virtual reality affects vividness experience is...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
@@ -102,6 +109,13 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
             },},{
+        id: 'social-bluesky',
+        title: 'Bluesky',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://bsky.app/profile/speng.bsky.social", "_blank");
+        },
+      },{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
@@ -120,7 +134,7 @@ ninja.data = [{
         title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.linkedin.com/in/shikang-peng", "_blank");
+          window.open("https://www.linkedin.com/in/shikang-peng-56230b226", "_blank");
         },
       },{
         id: 'social-orcid',
