@@ -2,6 +2,69 @@
  * CV shared styles
  *****************************/
 
+.cv-pdf-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem 1rem;
+
+  .post-title {
+    margin-bottom: 0;
+  }
+
+  .post-description {
+    flex-basis: 100%;
+  }
+}
+
+.cv-pdf-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+
+  .btncv {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.8rem;
+    padding: 0.35rem 0.75rem;
+  }
+}
+
+.cv-pdf-viewer {
+  margin-top: 1.25rem;
+
+  iframe {
+    display: block;
+    width: 100%;
+    height: calc(100vh - 12rem);
+    min-height: 42rem;
+    max-height: 70rem;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 0.25rem;
+    background: #fff;
+  }
+}
+
+.cv-pdf-fallback {
+  margin-top: 0.75rem;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+@media (max-width: 575.98px) {
+  .cv-pdf-header {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .cv-pdf-viewer iframe {
+    height: 70vh;
+    min-height: 32rem;
+  }
+}
+
 div.container-link-button {
   margin-right: 0.5rem;
 }

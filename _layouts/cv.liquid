@@ -1,7 +1,41 @@
 ---
 layout: default
 ---
-{% unless site.data.resume %}
+{% if page.cv_pdf %}
+  {% if page.cv_pdf contains '://' %}
+    {% assign cv_pdf_url = page.cv_pdf %}
+  {% else %}
+    {% assign cv_pdf_url = page.cv_pdf | prepend: 'assets/pdf/' | relative_url %}
+  {% endif %}
+{% endif %}
+
+{% if page.cv_pdf_embed and cv_pdf_url %}
+  <div class="post cv-pdf-page">
+    <header class="post-header cv-pdf-header">
+      <h1 class="post-title">{{ page.title }}</h1>
+      <div class="cv-pdf-actions" aria-label="CV document actions">
+        <a href="{{ cv_pdf_url }}" target="_blank" rel="noopener noreferrer" class="btncv">
+          <i class="fa-solid fa-up-right-from-square" aria-hidden="true"></i>
+          Open PDF
+        </a>
+        <a href="{{ cv_pdf_url }}" download class="btncv">
+          <i class="fa-solid fa-download" aria-hidden="true"></i>
+          Download
+        </a>
+      </div>
+      {% if page.description %}
+        <p class="post-description">{{ page.description }}</p>
+      {% endif %}
+    </header>
+
+    <article class="cv-pdf-viewer">
+      <iframe src="{{ cv_pdf_url }}#view=FitH" title="Shikang Peng CV" loading="eager"></iframe>
+      <p class="cv-pdf-fallback">
+        If the document does not appear, <a href="{{ cv_pdf_url }}" target="_blank" rel="noopener noreferrer">open the PDF in a new tab</a>.
+      </p>
+    </article>
+  </div>
+{% elsif site.data.resume == nil %}
   <div class="post">
     <header class="post-header">
       <h1 class="post-title">
@@ -124,4 +158,4 @@ layout: default
       </div>
     </article>
   </div>
-{% endunless %}
+{% endif %}
