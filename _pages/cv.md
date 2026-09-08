@@ -3,9 +3,9 @@ layout: cv
 permalink: /cv/
 title: cv
 nav: true
-nav_order: 5
-cv_pdf:  # you can also use external links here
-description: This is a description of the page. You can modify it in '_pages/cv.md'. You can also change or remove the top pdf download button.
+nav_order: 4
+nav_link: https://github.com/shikangpeng/shikangpeng.github.io/blob/main/assets/pdf/shikang_CV.pdf
+# cv_pdf: https://raw.githubusercontent.com/shikangpeng/ShikangPeng-CV/main/Shikang_CV.pdf
 toc:
   sidebar: left
 ---
