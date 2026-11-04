@@ -29,7 +29,9 @@ _styles: |
 ---
 
 ## Course Instructor
-##### *University of Toronto*
+
+##### _University of Toronto_
+
 <div class="table-responsive">
   <table class="table table-sm table-borderless teaching-table" style="border: 0;">
     <tbody>
@@ -42,7 +44,9 @@ _styles: |
 </div>
 
 ## Teaching Assistant
-##### *University of Toronto*
+
+##### _University of Toronto_
+
 <div class="table-responsive">
   <table class="table table-sm table-borderless teaching-table" style="border: 0;">
     <tbody>

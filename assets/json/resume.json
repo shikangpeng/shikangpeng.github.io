@@ -75,15 +75,7 @@
     {
       "name": "Programming",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Python (PsychPy & Pytorch)",
-        "Matlab",
-        "R",
-        "Bash",
-        "JavaScript (jsPsych)",
-        "HTML",
-        "High Performance Computing (HPC)"
-      ]
+      "keywords": ["Python (PsychPy & Pytorch)", "Matlab", "R", "Bash", "JavaScript (jsPsych)", "HTML", "High Performance Computing (HPC)"]
     },
     {
       "name": "Machine/Deep Learning",
