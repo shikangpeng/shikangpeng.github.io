@@ -29,6 +29,6 @@ latest_posts:
 
 Hey! I am a 3rd-year PhD student at the Rotman Research Institute at Baycrest, University of Toronto, working with [Drs. Brian Levine](https://levinelab.weebly.com/levine-lab-members.html) and  [Bradley Buchsbaum](https://www.linguamemoria.com/). I obtained my MA in psychology from the University of Chicago working with [Dr. Wilma Bainbridge](https://brainbridgelab.uchicago.edu/people/), and my BSc from the Univeristy of Alberta. 
 
-My research interests lie at the intersection of <b>naturalistic perception, memory, and imagery</b>, using <b>computational cognitive neuroscience</b> approaches with data from behavior and functional magnetic resonance imaging (fMRI), as well as how the individual differences that shape them.
+My research interests lie at the intersection of <b>naturalistic perception, memory, and imagery</b>, using <b>computational cognitive neuroscience</b> approaches to analyze data from behavior and functional magnetic resonance imaging (fMRI), as well as how the individual differences that shape them.
 
 Outside of my research, I enjoying watching movies, playing video games, cooking, or camping once for a while. 

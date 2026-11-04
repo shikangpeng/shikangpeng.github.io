@@ -1,8 +1,7 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
-description: Courses and teaching materials.
+title: Teaching
 nav: true
 nav_order: 3
 _styles: |
